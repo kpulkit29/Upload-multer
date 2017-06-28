@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+void pow(int n1,int p1){
+	int n=n1;
+	int p=p1;
+	n=n*n;
+	for(int i=0;i<p;i++){
+		pow(n,p);
+		cout<<n;
+	}
+}
+main(){
+	pow(2,2);
+}
