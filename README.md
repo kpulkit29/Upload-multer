@@ -1,3 +1,3 @@
 # Upload-multer
-An application that asks the user to upload a file and then tells the size of the file. It user multer to access file properties
-Multer is an npm library used to upload files.
+An application that asks the user to upload a file and then displays the size of the file. It uses multer to access file properties
+Multer is a npm library used to upload files.
